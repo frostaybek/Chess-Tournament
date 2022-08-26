@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'calibri';
+    color: white;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+body{
+    background: linear-gradient(to right, #AA076B, #61045F);
+    height: 100vh;
+    width: 100%;
+}
+
+header{
+    background: linear-gradient(to left, #6d134a, #380737);
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-link{
+    text-decoration: none;
+    color: rgb(194, 197, 23);
+    user-select: none;
+    transition: all ease .4s;
+}
+
+.head-link:hover{
+    color: rgb(141, 143, 34);
+}
+
+.head-link:active{
+    color: rgb(102, 104, 19);
+}
+
+.head1{
+    font-size: 32px;
+}
+
+.head2{
+    font-size: 32px;
+}
+
+.head2-span{
+    margin-right: 22px;
+}
+
+.head2 mark{
+    background-color: orangered;
+    padding: 6px;
+    user-select: none;
+    transition: all ease .4s;
+}
+
+.head2 mark:hover{
+    background-color: rgb(255, 115, 0);
+}
+
+.main{
+    width: 100%;
+}
+
+.card1{
+    border: 2px solid black;
+    height: 100px;
+    width: 100%;
+}
+
+.card1 h1{
+    margin: 30px;
+}
+
+.image{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.img{
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+    height: 620px;
+}
+
+.footer{
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: rgb(116, 32, 32);
+    text-align: center;
+    padding: 12px;
+}
+
+.footer p{
+    font-size: 22px;
+}
